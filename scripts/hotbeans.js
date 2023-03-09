@@ -13,7 +13,7 @@ function nav(filename) {
 }
 
 function navUrl(url) {
-  $.get(url, function(data) {
+  $.get(encodeURIComponent(url), function(data) {
     $(".content-container").html(data);
   });
 }
