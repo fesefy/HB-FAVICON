@@ -12,8 +12,7 @@ function nav(filename) {
   });
 }
 
-function submit(evt) {
-  evt.preventDefault();
+function submit() {
   setTimeout(() => {
     alert('Application submitted successfully!');
   }, 3000);
