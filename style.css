@@ -104,5 +104,6 @@ body {
 }
 
 .aboutxt {
-  color: black;
+  color: #000;
+  font-size: 20;
 }
