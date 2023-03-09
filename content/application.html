@@ -7,7 +7,8 @@
 					<h4>Application</h4>
 				</div>
 				<div class="card-body">
-					<form method="post" action="mailto:liamjack.fisher@gmx.com" enctype="text/plain">
+					<!-- <form method="post" action="mailto:liamjack.fisher@gmx.com" enctype="text/plain"> -->
+						<form>
 
 						<div class="mb-3">
 							<label for="firstName" class="form-label">First Name</label>
@@ -27,14 +28,12 @@
 						</div>
 
 						<div class="button-wrapper mb-3">
-							<button class="btn btn-success float-right" type="submit">Submit Application</button>
+							<button class="btn btn-success float-right" type="button" (onClick)="submit()">Submit Application</button>
 						</div>
-
+					</form>
 				</div>
 			</div>
 		</div>
 		<div class="col-4"></div>
 	</div>
 </div>
-
-</form>

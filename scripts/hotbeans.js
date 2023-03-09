@@ -12,8 +12,8 @@ function nav(filename) {
   });
 }
 
-function navUrl(url) {
-  $.get(url, function(data) {
-    $(".content-container").html(data);
-  });
+function submit() {
+  setTimeout(() => {
+    alert('Application submitted successfully!');
+  }, 3000);
 }
