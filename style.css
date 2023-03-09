@@ -102,3 +102,7 @@ body {
   display: flex;
   justify-content: flex-end;
 }
+
+.aboutxt {
+  color: black;
+}
