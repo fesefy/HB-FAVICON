@@ -1,0 +1,104 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #DFF8FE;
+  font-size: 16px;
+  background-image: url('media/basedbeans.jpg');  
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */  
+}
+
+.header-container {
+  display: flex;
+  gap: 1rem;
+}
+
+/* .logo {
+  position: absolute;
+  top: 10px;
+  left: 140px;
+} */
+
+.about-container,
+.application-container,
+.courses-container,
+.jobs-container,
+.employees-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 96vh;
+}
+
+.employees-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card.employee {
+  max-width: 25%;
+  max-height: 500px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 1px #ccc;
+}
+
+.employee-image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.employee-image {
+  max-height: 310px;
+  overflow-y: hidden;
+  border: 3px solid black;
+}
+
+
+.nav-link {
+  font-size: 1.25rem;
+  color: #fff;
+  transition: color .5s ease-in-out
+}
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
