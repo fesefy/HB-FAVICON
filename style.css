@@ -109,6 +109,7 @@ body {
   text-decoration: none;
 }
 
-.jobs-image {
-  size: 2rem;
+.footer {
+  position: fixed;
+  bottom: 0;
 }
